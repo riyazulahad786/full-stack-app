@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* -------------------------------- */
+
+/* Calculator container */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Display screen */
+.display {
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Calculator buttons */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Clear button style */
+#clear {
+  background-color: #e74c3c;
+}
+
+#clear:hover {
+  background-color: #c0392b;
+}
+
+/* Equals button style */
+#equals {
+  background-color: #2ecc71;
+}
+
+#equals:hover {
+  background-color: #27ae60;
+}
+
+/* ---------------------------------cashregister */
+
+.cash-register-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #dddada;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.cash-drawer-container {
+  margin-top: 20px;
+}
+
+.currency-item {
+  margin-bottom: 10px;
+}
+
+.calculate-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background-color: #0056b3;
+}
+
+.change-result {
+  margin-top: 20px;
+}
+
+.change-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.golf{
+  background-color: rgb(231, 224, 224);
+}
